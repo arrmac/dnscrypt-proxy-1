@@ -441,7 +441,7 @@ cert_query_cb(int result, char type, int count, int ttl,
     cert_print_bincert_info(proxy_context, bincert);
     if (cert_check_key_rotation_period(proxy_context, bincert) != 0) {
         if (proxy_context->test_only) {
-            exit(1);
+            exit(DNSCRYPT_EXIT_CERT_NOCERTS);
         }
         cert_reschedule_query_after_failure(proxy_context);
         return;
