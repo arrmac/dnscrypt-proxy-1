@@ -45,3 +45,21 @@ domain names or IP addresses match a set of rules you define.
 addresses on IPv4-only networks.
 - Force traffic to use TCP, to route it through TCP-only tunnels or
 Tor.
+
+List of public resolvers
+------------------------
+
+The list of known public DNS resolvers supporting the DNSCrypt
+protocol can be downloaded here:
+[DNSCrypt resolvers](https://download.dnscrypt.org/dnscrypt-proxy/)
+
+If you want yours to be added to that list, or to report issues with
+some current entries, please send a pull request or open a ticket in the
+[dnscrypt-resolvers](https://github.com/jedisct1/dnscrypt-resolvers)
+repository.
+
+DNSCrypt protocol description
+-----------------------------
+
+The protocol is specified here:
+[DNSCrypt protocol](https://github.com/jedisct1/dnscrypt-protocol)
