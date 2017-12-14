@@ -55,11 +55,11 @@ protocol can be downloaded here:
 
 If you want yours to be added to that list, or to report issues with
 some current entries, please send a pull request or open a ticket in the
-[dnscrypt-resolvers](https://github.com/jedisct1/dnscrypt-resolvers)
+[dnscrypt-resolvers](https://github.com/dnscrypt/dnscrypt-resolvers)
 repository.
 
 DNSCrypt protocol description
 -----------------------------
 
 The protocol is specified here:
-[DNSCrypt protocol](https://github.com/jedisct1/dnscrypt-protocol)
+[DNSCrypt protocol](https://github.com/dnscrypt/dnscrypt-protocol)
