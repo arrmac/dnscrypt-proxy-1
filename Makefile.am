@@ -29,10 +29,10 @@ SUBDIRS += \
 	test
 
 dist_pkgdata_DATA = \
-	dnscrypt-resolvers/dnscrypt-resolvers.csv \
-	dnscrypt-resolvers/dnscrypt-resolvers.csv.minisig \
-	dnscrypt-resolvers/dnscrypt-resolvers.csv.sig \
-	dnscrypt-resolvers/minisign.pub
+	dnscrypt-resolvers/v1/dnscrypt-resolvers.csv \
+	dnscrypt-resolvers/v1/dnscrypt-resolvers.csv.minisig \
+	dnscrypt-resolvers/v1/dnscrypt-resolvers.csv.sig \
+	dnscrypt-resolvers/v1/minisign.pub
 
 doc_DATA = \
 	README.markdown \
