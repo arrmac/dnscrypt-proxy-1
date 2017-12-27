@@ -1,0 +1,6 @@
+[submodule "dnscrypt-resolvers"]
+	path = dnscrypt-resolvers
+	url = https://github.com/dnscrypt/dnscrypt-resolvers
+[submodule "dnscrypt-protocol"]
+	path = dnscrypt-protocol
+	url = https://github.com/dnscrypt/dnscrypt-protocol
